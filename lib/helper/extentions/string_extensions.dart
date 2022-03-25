@@ -1,4 +1,4 @@
-import '../my_utils.dart';
+import '../utils/my_utils.dart';
 
 extension StringUtils on String {
   bool get isNum => MyUtils.isNum(this);

@@ -1,4 +1,4 @@
-import '../my_utils.dart';
+import '../utils/my_utils.dart';
 
 extension DynamicUtils on dynamic {
   @Deprecated('isNull is deprecated and cannot be used, use "==" operator')

@@ -1,8 +1,7 @@
 
 import 'package:flutter_temp_project/data/data_source/local/pref/pref_key.dart';
 import 'package:flutter_temp_project/data/data_source/local/pref/shared_preferences_manager.dart';
-
-import '../../../../di/module/di_module.dart';
+import 'package:flutter_temp_project/helper/di/module/di_module.dart';
 
 class SessionPref {
   static void saveSession({required String accessToken}) {
